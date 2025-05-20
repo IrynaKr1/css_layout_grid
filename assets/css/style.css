@@ -156,9 +156,9 @@ main {
   cursor: pointer;
 }
 
-/* .contact {
-  margin-bottom: 64px;
-} */
+.contact {
+  margin-bottom: 32px;
+}
 
 .contact-form {
   margin-top: 32px;
@@ -183,4 +183,16 @@ main {
   margin-top: 16px;
   text-transform: uppercase;
   margin-bottom: 64px;
+}
+
+.page-footer {
+    padding: 16px 0;
+    margin-top: 0 auto;
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+.page-footer a {
+    color: var(--secondary-color);
 }
