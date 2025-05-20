@@ -1,0 +1,43 @@
+:root {
+  --main-font: Verdana, sans-serif;
+  --secondary-font: "Segoe UI", Arial, sans-serif;
+  --main-color: black;
+  --secondary-color: white;
+  --page-font-size: 15px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: var(--main-font);
+    font-size: var(--page-font-size);
+    letter-spacing: 4px;
+    line-height: 1.5;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    position: fixed;
+    background-color: var(--secondary-color);
+}
+
+.nav-br {
+ font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-button {
+    display: block;
+    padding: 8px 16px;
+}
+
