@@ -196,3 +196,11 @@ main {
 .page-footer a {
     color: var(--secondary-color);
 }
+
+.logo:hover, .nav-button:hover, .button:hover, .submit-btn:hover {
+    background-color: #ccc;
+}
+
+.submit-btn:hover {
+    color: var(--main-color);
+}
