@@ -13,7 +13,6 @@
 body {
   font-family: var(--main-font);
   font-size: var(--page-font-size);
-  letter-spacing: 4px;
   line-height: 1.5;
   margin: 0;
   padding: 0;
@@ -29,6 +28,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  letter-spacing: 4px;
   background-color: var(--secondary-color);
   z-index: 1000;
   display: flex;
@@ -84,7 +84,49 @@ main {
   white-space: nowrap;
 }
 
-.br{
-    background-color: rgba(0, 0, 0, 0.5);
+.br {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px 16px;
+}
+
+main {
+  padding: 8px 16px;
+}
+
+.section-title {
+  font-family: var(--secondary-font);
+  font-weight: 400px;
+  margin: 10px 0;
+  font-size: 1.733rem;
+  padding: 32px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.grid-parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+.project-card {
+  position: relative;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+
+.project-class-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--main-color);
+    color: var(--secondary-color);
     padding: 8px 16px;
+}
+
+.about-content {
+    margin: 15px 0;
 }
