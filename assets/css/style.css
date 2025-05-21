@@ -14,8 +14,6 @@ body {
   font-family: var(--main-font);
   font-size: var(--page-font-size);
   line-height: 1.5;
-  margin: 0;
-  padding: 0;
 }
 
 .container {
@@ -39,8 +37,10 @@ body {
 }
 
 main {
-  padding-top: 65px;
+  padding: 8px 16px;
+  padding-top: 50px;
 }
+
 
 .nav-br {
   font-weight: bold;
@@ -94,13 +94,9 @@ main {
   padding: 8px 16px;
 }
 
-main {
-  padding: 8px 16px;
-}
-
 .section-title {
   font-family: var(--secondary-font);
-  font-weight: 400px;
+  font-weight: 400;
   margin: 10px 0;
   font-size: 1.733rem;
   padding: 32px 0;
