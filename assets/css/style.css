@@ -64,11 +64,16 @@ main {
   overflow: hidden;
 }
 
-.header-image, .footer-img {
+.header-image,
+.footer-img {
   width: 100%;
   height: auto;
   display: block;
   object-fit: cover;
+}
+
+.short {
+  display: none;
 }
 
 .header-text {
@@ -186,21 +191,53 @@ main {
 }
 
 .page-footer {
-    padding: 16px 0;
-    margin-top: 0 auto;
-    background-color: var(--main-color);
-    color: var(--secondary-color);
-    text-align: center;
+  width: 100%;
+  padding: 16px 0;
+  margin-top: 0 auto;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+  text-align: center;
 }
 
 .page-footer a {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
 
-.logo:hover, .nav-button:hover, .button:hover, .submit-btn:hover {
-    background-color: #ccc;
+.logo:hover,
+.nav-button:hover,
+.button:hover,
+.submit-btn:hover {
+  background-color: #ccc;
 }
 
 .submit-btn:hover {
-    color: var(--main-color);
+  color: var(--main-color);
+}
+
+.page-footer a:hover {
+  color: green;
+}
+
+@media screen and (max-width: 1000px) {
+  .grid-parent {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-button {
+    visibility: hidden;
+  }
+
+  .short {
+    display: inline;
+  }
+
+  .full {
+    display: none;
+  }
+
+  .grid-parent {
+    grid-template-columns: 1fr;
+  }
 }
