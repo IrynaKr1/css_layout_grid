@@ -10,7 +10,7 @@
   <body>
     <div class="container">
       <!-- Navigation bar -->
-      <div class="navbar">
+      <nav class="navbar">
         <a href="#home" class="logo"
           ><span class="nav-br">BR</span> Architects</a
         >
@@ -20,7 +20,7 @@
           <li><a href="#contact" class="nav-button">Contact</a></li>
           <li></li>
         </ul>
-      </div>
+      </nav>
 
       <!-- Header -->
       <header class="page-header" id="home">
@@ -30,15 +30,17 @@
           class="header-image"
         />
         <div class="header-text">
-          <h1><span class="full"><span class="br">BR</span> Architects</span>
-          <span class="br short">BR</span></h1>
+          <h1>
+            <span class="full"><span class="br">BR</span> Architects</span>
+            <span class="br short">BR</span>
+          </h1>
         </div>
       </header>
 
       <!-- Main content -->
       <main>
         <!-- Projects -->
-        <div class="projects" id="projects">
+        <section class="projects" id="projects">
           <h2 class="section-title">Projects</h2>
           <div class="grid-parent">
             <div class="project-card">
@@ -106,10 +108,10 @@
               />
             </div>
           </div>
-        </div>
+        </section>
 
         <!-- About -->
-        <div class="about" id="about">
+        <section class="about" id="about">
           <h2 class="section-title">About</h2>
           <p class="about-content">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim,
@@ -124,7 +126,7 @@
             suscipit aliquam quod excepturi eos quas et beatae expedita?
           </p>
           <div class="user-cards grid-parent">
-            <div class="individual-card">
+            <article class="individual-card">
               <img
                 src="assets/img/ceo.jpg"
                 alt="CEO image"
@@ -137,8 +139,8 @@
                 sodales pellentesque elementum.
               </p>
               <button class="button">Contact</button>
-            </div>
-            <div class="individual-card">
+            </article>
+            <article class="individual-card">
               <img
                 src="assets/img/architect.jpg"
                 alt="Female Architect image"
@@ -151,8 +153,8 @@
                 sodales pellentesque elementum.
               </p>
               <button class="button">Contact</button>
-            </div>
-            <div class="individual-card">
+            </article>
+            <article class="individual-card">
               <img
                 src="assets/img/architect1.jpg"
                 alt="Male Architect image"
@@ -165,8 +167,8 @@
                 sodales pellentesque elementum.
               </p>
               <button class="button">Contact</button>
-            </div>
-            <div class="individual-card">
+            </article>
+            <article class="individual-card">
               <img
                 src="assets/img/architect2.jpg"
                 alt="Male architect image"
@@ -179,12 +181,12 @@
                 sodales pellentesque elementum.
               </p>
               <button class="button">Contact</button>
-            </div>
+            </article>
           </div>
-        </div>
+        </section>
 
         <!-- Contact -->
-        <div class="contact" id="contact">
+        <section class="contact" id="contact">
           <h2 class="section-title">Contact</h2>
           <p>Lets get in touch and talk about your next project.</p>
           <form action="" method="post" class="contact-form">
@@ -233,16 +235,15 @@
             alt="Firm location on google maps"
             class="footer-img"
           />
-        </div>
-</div>
-        <!-- Footer -->
-        <footer class="page-footer">
-          <p>
-            Powered by
-            <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
-          </p>
-        </footer>
+        </section>
       </main>
-    
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer">
+      <p>
+        Powered by
+        <a href="https://www.w3schools.com/w3css/default.asp">w3.css</a>
+      </p>
+    </footer>
   </body>
 </html>
